@@ -1,3 +1,9 @@
+# wandb folder 
+wandb/
+
+# logs output folder from slurm job
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
