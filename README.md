@@ -7,7 +7,9 @@ Source code for "MEDIMP: Medical Images and Prompts for renal transplant represe
 
 # Soon to come ...
 
-# Dummy dataset
+## Usage
+
+## Dummy dataset
 As the dataset for this work is not publicly available, I built a dummy mri dataset path tree similar to our dataset so that the code can be ran on it, when argument ```dummy=True``` in ```get_patient_seq_paths``` function.
 ```bash
 ├── data
@@ -28,13 +30,13 @@ As the dataset for this work is not publicly available, I built a dummy mri data
 └── ...
 ```
 
-# Requirements
+## Requirements
 See conda_environment.yml file or replicate the conda env:
 ```
 conda env create -n ENVNAME --file conda_environment.yml
 ```
 
-# References
+## References
 ```
 @misc{milecki2023medimp,
       title={MEDIMP: Medical Images and Prompts for renal transplant representation learning}, 
