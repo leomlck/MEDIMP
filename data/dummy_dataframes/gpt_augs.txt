@@ -1,0 +1,10 @@
+ The kidney donor was {age} years of age.; The patient's GFR was found to be {gfr} at the {date} check-up.; Creatinine levels displayed {adj} fluctuations.
+ At the time of transplant, the age of the kidney donor was {age}.; The patient's glomerular filtration rate was {gfr} at the {date} follow-up.; Creatinine levels varied {adj}.
+ The individual who provided the kidney for transplant was {age} years old.; The GFR of the recipient was determined to be {gfr} during the {date} examination.; There were {adj} changes in creatinine levels.
+ The age of the kidney donor was {age}.; The GFR of the transplant recipient was {gfr} at the {date} follow-up visit.; Creatinine levels fluctuated {adj}.
+ The individual who donated the kidney was {age} years of age.; The patient's glomerular filtration rate was measured as {gfr} at the {date} check-up.; The creatinine levels demonstrated {adj} variations.
+ At the time of transplant, the donor's age was {age}.; The GFR of the patient was evaluated as {gfr} during the {date} follow-up.; The creatinine levels showed {adj} fluctuations.
+ The kidney donor was {age} years old at the time of transplant.; The patient's glomerular filtration rate was {gfr} at the {date} examination.; Creatinine levels varied {adj}.
+ The individual who provided the kidney for transplant was {age} years of age.; The recipient's GFR was determined to be {gfr} at the {date} follow-up appointment.; The creatinine levels displayed {adj} changes.
+ At the time of transplant, the age of the kidney donor was {age}.; The GFR of the transplant patient was {gfr} during the {date} check-up.; Creatinine levels fluctuated {adj}.
+ The individual who donated the kidney was {age} years old.; The glomerular filtration rate of the transplant recipient was {gfr} at the {date} examination.; The creatinine levels showed {adj} variation.
