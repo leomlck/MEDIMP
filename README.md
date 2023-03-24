@@ -5,9 +5,19 @@ Source code for "MEDIMP: Medical Images and Prompts for renal transplant represe
   <img src="figures/overview_final.jpg" width="900">
 </p>
 
-# Being updated
-
 ## Usage
+
+Pretrain your Image Encoder model locally using the dummy dataset jointly with [Bio+Clinical BERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT) Text Encoder on your generated text annotations in ```data/dummy_dataframes/gpt_augs.txt```. 
+Modify ```config_dataset/make_dataset_setting_file.py``` to make a dataset file containing the file_path_to_image, text annotations pairs. 
+```
+python main_train.py --exams D15 D30 M3 M12 --architecture RN50 --context_length 77 --pretrained_biobert 1 --pretrained_dir RN50.pt --img_size 96 144 192 --batch_size 22 --eval_every 1 --learning_rate 1e-4 --num_epochs 200 --warmup_epochs 40 --freeze_nlp first11 --use_amp 1 --num_workers 2 --gradient_accumulation_steps 1 --description dummy_MEDIMP --wandb_id dummy_test
+```
+
+Pretrain your Image Encoder model sending a slurm job. 
+Edit the file to modify the slurm parameters and/or the ```main_train.py``` arguments.
+```
+python slurm_train_features.py
+```
 
 ## Dummy dataset
 As the dataset for this work is not publicly available, I built a dummy mri dataset path tree similar to our dataset so that the code can be ran on it, when argument ```dummy=True``` in ```get_patient_seq_paths``` function.
