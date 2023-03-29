@@ -24,7 +24,8 @@ As the dataset for this work is not publicly available, I built a dummy mri data
 ```bash
 ├── data
 │   ├── dummy_dataframes
-│   │   ├── df_targets.csv
+│   │   ├── df_clinicobiological_data.csv
+│   │   ├── gtp_augs.txt
 │   ├── dummy_mri_dataset (contains patients)
 │   │   ├── dummy_mri.nii.gz
 │   │   ├── 001-0001-A-A (contains exams)
