@@ -1,5 +1,5 @@
 # MEDIMP: 3D Medical Images with clinical Prompts from limited tabular data for renal transplantation
-Source code for "MEDIMP: Medical Images and Prompts for renal transplant representation learning", MIDL 2023, https://openreview.net/forum?id=jt-ochRhqG.
+Source code for "MEDIMP: 3D Medical Images with clinical Prompts from limited tabular data for renal transplantation", MIDL 2023, https://openreview.net/forum?id=jt-ochRhqG.
 
 <p align="center">
   <img src="figures/overview_final.jpg" width="900">
