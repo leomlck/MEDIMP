@@ -50,7 +50,7 @@ conda env create -n ENVNAME --file conda_environment.yml
 ## References
 ```
 @misc{milecki2023medimp,
-      title={MEDIMP: Medical Images and Prompts for renal transplant representation learning}, 
+      title={MEDIMP: 3D Medical Images with clinical Prompts from limited tabular data for renal transplantation}, 
       author={Leo Milecki and Vicky Kalogeiton and Sylvain Bodard and Dany Anglicheau and Jean-Michel Correas and Marc-Olivier Timsit and Maria Vakalopoulou},
       year={2023},
       eprint={2303.12445},
